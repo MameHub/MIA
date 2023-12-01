@@ -1,0 +1,10 @@
+.titulo_principal{
+    background-color: red;
+}
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
