@@ -1,3 +1,7 @@
+"""
+Código de ejemplo para transcribir audio a texto.
+"""
+
 # Importamos la libreria "speech_recognition" y le asignamos el alias "sr", este nos facilitará las funciones necesarias.
 import speech_recognition as sr
 # Instanciamos el reconocimiento de voz.
