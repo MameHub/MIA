@@ -1,5 +1,5 @@
 """
-Modificación del ejercicio de ejemplo para covnertir audio a texto, en este caso se utilizará un archivo de audio.
+Modificación del ejercicio de ejemplo para convnertir audio a texto, en este caso se utilizará un archivo de audio.
 """
 
 import speech_recognition as sr
