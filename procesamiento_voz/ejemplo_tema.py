@@ -12,6 +12,6 @@ mic = sr.Microphone()
 with mic as source:
     audio = recognizer.listen(source)
 # Almacenamos en la variable "text" el audio obtenido en texto, en idioma español.
-text = recognizer.recognize_google(audio, language = 'EN')
+text = recognizer.recognize_google(audio, language = 'ES')
 # Imprimimos por pantalla el audio pasado a texto.
 print(f'Has dicho: {text}')

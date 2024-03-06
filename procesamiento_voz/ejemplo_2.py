@@ -10,5 +10,5 @@ mic = sr.Microphone()
 with mic as source:
     audio = rec.listen(source)
 
-to_text = rec.recognize_google(audio, language='ES')
+to_text = rec.recognize_google(audio, language='EN')
 print(to_text)
